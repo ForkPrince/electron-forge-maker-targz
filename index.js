@@ -3,10 +3,12 @@ const path = require("path");
 const tar = require("tar");
 
 class MakerTarGz extends MakerBase {
-  name = "maker-targz";
+  name = "tar.gz";
+
+  defaultPlatforms = ["linux"];
 
   isSupportedOnCurrentPlatform() {
-    return process.platform === 'linux';
+    return process.platform === "linux";
   }
 
   async make({ dir, makeDir, targetPlatform, targetArch, packageJSON }) {
