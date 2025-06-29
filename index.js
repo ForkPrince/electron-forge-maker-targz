@@ -5,6 +5,10 @@ const tar = require("tar");
 class MakerTarGz extends MakerBase {
   name = "maker-targz";
 
+  isSupportedOnCurrentPlatform() {
+    return process.platform === 'linux';
+  }
+
   async make({ dir, makeDir, targetPlatform, targetArch, packageJSON }) {
     const output = path.join(makeDir, `${packageJSON.productName || packageJSON.name}-${targetPlatform}-${targetArch}-${packageJSON.version}.tar.gz`);
 
