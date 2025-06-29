@@ -1,5 +1,5 @@
 {
-  "name": "electron-forge-maker-targz",
+  "name": "@forkprince/electron-forge-maker-targz",
   "version": "1.0.0",
   "description": "Electron Forge maker that outputs .tar.gz archives",
   "main": "index.js",
