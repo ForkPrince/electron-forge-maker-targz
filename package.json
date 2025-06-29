@@ -1,0 +1,23 @@
+{
+  "name": "electron-forge-maker-targz",
+  "version": "1.0.0",
+  "description": "Electron Forge maker that outputs .tar.gz archives",
+  "main": "index.js",
+  "dependencies": {
+    "@electron-forge/maker-base": "^7.8.1",
+    "tar": "^7.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForkPrince/electron-forge-maker-targz.git"
+  },
+  "author": "Prince527",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ForkPrince/electron-forge-maker-targz/issues"
+  },
+  "homepage": "https://github.com/ForkPrince/electron-forge-maker-targz#readme"
+}
